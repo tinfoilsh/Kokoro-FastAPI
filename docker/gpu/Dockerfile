@@ -65,3 +65,4 @@ RUN if [ "$DOWNLOAD_MODEL" = "true" ]; then \
 ENV DEVICE="gpu"
 # Run FastAPI server through entrypoint.sh
 CMD ["./entrypoint.sh"]
+
